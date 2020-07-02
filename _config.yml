@@ -5,17 +5,18 @@
 # Site
 title: Mr.Chip的小站
 subtitle: '分享一些个人研发经验'
-description: '信号处理、机器学习软件研发经验分享'
-keywords: 信号处理, 算法, 机器学习, 深度学习, 数据后处理
+description: '分享一些工作、学习中关于信号处理、机器学习的经验'
+keywords: 信号处理, 算法, 机器学习, 深度学习, 数据后处理, 编程, Signal Processing, Algorithm, Machine Learning, Deep Learning, Programming
 author: Mr.Chip
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http:/www.mrchip.info
+url: https://www.mrchip.info
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+permalink: :id.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -94,20 +95,11 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-# Sidebar Position, available value: left | right (only for Pisces | Gemini).
-position: left
-#position: right
 
-# Sidebar Display, available value (only for Muse | Mist):
-#  - post    expand on posts automatically. Default.
-#  - always  expand for all pages automatically
-#  - hide    expand only when click on the sidebar toggle icon.
-#  - remove  Totally remove sidebar including sidebar toggle.
-display: always
-#display: always
-#display: hide
-#display: remove
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: ssh://git@mrchip.info:26430/srv/web-repo
+  branch: master
+
