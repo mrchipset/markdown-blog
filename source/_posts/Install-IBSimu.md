@@ -1,8 +1,16 @@
 ---
 title: Ubuntu发行版编译安装IBSimu等离子体数值计算工具集
+tags:
+  - Linux
+  - 数值计算
+  - 安装教程
+  - C/C++
+  - IBSimu
+categories:
+  - 安装教程
+  - IBSimu
+abbrlink: d54260e5
 date: 2020-08-04 15:24:34
-tags: [Linux, 数值计算, 安装教程, C/C++, IBSimu]
-categories: [安装教程, IBSimu]
 ---
 
 IBSimu 是由T. Klavas等人开发的一款遵循GPL协议开源的三维等离子体数值仿真计算工具集。

@@ -1,9 +1,13 @@
 ---
 title: 使用MXNet构建神经网络对任意函数进行拟合
-date: 2020-07-24 13:38:49
-tags: [MXNet, 神经网络]
-categories: [人工智能]
+tags:
+  - MXNet
+  - 神经网络
+categories:
+  - 人工智能
 mathjax: true
+abbrlink: f5fc5b7d
+date: 2020-07-24 13:38:49
 ---
 
 本文将介绍使用MXNet实现任意函数的拟合功能。本文将从最基础的 $f(x)=a*x+b$ 开始一步一步阐述
