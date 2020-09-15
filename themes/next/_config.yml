@@ -703,6 +703,9 @@ growingio_analytics: # <project_id>
 # CNZZ count
 cnzz_siteid:
 
+cgi_visitors:
+  enable: true
+  url: https://www.mrchip.info/cgi-bin/web_pv_counter.py
 # Show number of visitors of each article.
 # You can visit https://leancloud.cn to get AppID and AppKey.
 # AppID and AppKey are recommended to be the same as valine's for counter compatibility.

@@ -96,6 +96,17 @@
             </span>
           {%- endif %}
 
+          {# CGI PageView #}
+          {%- if theme.cgi_visitors.enable %}
+            <span id="{{ url_for(post.path) }}" class="post-meta-item cgi_visitors" data-flag-title="{{ post.title }}" title="{{ __('post.views') }}">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">{{ __('post.views') + __('symbol.colon') }}</span>
+              <span class="cgi-visitors-count"></span>
+            </span>
+          {%- endif %}
+
           {# LeanCloud PageView #}
           {%- if theme.leancloud_visitors.enable or (theme.valine.enable and theme.valine.appid and theme.valine.appkey and theme.valine.visitor) %}
             <span id="{{ url_for(post.path) }}" class="post-meta-item leancloud_visitors" data-flag-title="{{ post.title }}" title="{{ __('post.views') }}">
