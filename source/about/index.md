@@ -9,10 +9,8 @@ date: 2020-07-02 15:41:43
 
 由于本人学识有限，文笔粗陋，文中难免会有疏漏的地方，如有疏漏或表达不当之处烦请指正！
 
-**以下内容大神请跳过，供小妹子们交朋友使用（手动滑稽）**
 
-有任何C/C++，Python课程学习方面的问题欢迎邮件（mrchip dot zxf at outlook dot com）交流!
 
 **以下内容被生活所迫（认真工作）**
 
-如果有算法、工具软件、网站、APP的委托项目请发需求至（mrchip dot zxf at outlook dot com）咨询！提前感谢各位老板！
+如果有算法、工具软件、网站、APP交流请发需求至（mrchip dot zxf at outlook dot com）！
